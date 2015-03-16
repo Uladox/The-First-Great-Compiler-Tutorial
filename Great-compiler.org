@@ -1,5 +1,5 @@
-THE GREAT COMPILER TUTORIAL
-        by 'Uladox
+THE FIRST GREAT COMPILER TUTORIAL
+           by 'Uladox
 
  c(){//    "THE
     int     COMPILER
@@ -7,17 +7,46 @@ THE GREAT COMPILER TUTORIAL
      /**/     HELLO
        c=4;     WORLD
       return c;
-       nil\* *\}   !
-    '( )     .text   ";
+       nil\**\}    !
+    '( )    *.text   ";
    'sch        asm:
  'lambda        movl $42, 
 (+ x x)           %eax
+
+- For those reading online,
+  in org mode this is a lambda.
+  I am proud of it, it is composed
+  of c, assembly, and scheme code.
 
 * Why? Just why?
   - There are few and far between
     compiler tutorials and the few
     out there are outdated or are
     not fun. Simple as that.
+ 
+* Ok, so whats with the org files
+  - This is the great part, it keeps
+    the documentation simple. I already
+    do a fair bit of web stuff so I get
+    tired of webpages and the like. Org
+    files are a quick and simple way to
+    keep organized and motivated. They also
+    function like a mini wiki.
+
+* How do I follow along?
+  - There should be org files
+    in each section folder,
+    follow those
+
+* What do I need
+  - A decent text editor or
+    ide (emacs or vi are suggested)
+  - A *nix based operating system or
+    something that can run make
+    (only tested on (GNU/)Linux)
+  - A gas assembler
+  - GCC compiler
+  - Prior programming experience
 * What languages
 ** Output
    - The output of the compiler
@@ -30,10 +59,13 @@ THE GREAT COMPILER TUTORIAL
 ** Compiler
    - The compiler's language will change
      based off of part of the tutorial
-     starting off in ruby and moving into
-     red and into other languages before
-     ending with c.
+     but for the most part it should be c.
 ** Source
-   - The source will most of the
+   - The source will be most of the
      subset of the interesting part
      of the scheme programming language.
+     With possible bits from other 
+     languages like red or io.
+* What is there left to do
+** TODO document section 1
+** TODO work on section 2
