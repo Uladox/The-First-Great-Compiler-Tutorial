@@ -27,3 +27,5 @@
 *.i*86
 *.x86_64
 *.hex
+/section-1.5/program
+/section-1.5/compiler
