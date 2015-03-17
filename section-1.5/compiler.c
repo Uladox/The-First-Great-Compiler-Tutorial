@@ -23,8 +23,7 @@ int main()
 "    .type scheme_entry, @function" "\n"
 "scheme_entry:" "\n"
 "    movl $%i, %%eax" "\n"
-"    ret" "\n"
-	  , scheme_int(55));
+"    ret" "\n", nil);
   fclose(out);
   return 0;
 }
